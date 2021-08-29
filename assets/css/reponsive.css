@@ -1,0 +1,382 @@
+/* Mobile & Tablet */
+@media (max-width: 1024px) {
+    :root {
+    --header-height: 69px;
+    --header-contact: 0px;
+    --header-nav: calc(var( --header-height) - var(--header-contact));
+    }
+
+    .header {
+        background-color: var(--primary-color);
+    }
+
+    .header__contact {
+        display: none;
+    }
+
+    .header__nav {
+        display: none;
+    }
+
+    .header__nav-tablet {
+        display: block;
+    }
+
+    .header__nav-tablet-menu {
+        height: var(--header-height);
+    }
+
+    .header__nav-tablet-menu {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+    }
+
+    .header__nav-tablet-menu-img {
+        vertical-align: bottom;
+    }
+
+    .header__nav-tablet-user-icon,
+    .header__nav-tablet-menu-icon {
+        font-size: 1.8rem;
+        color: var(--white-color);
+        padding: 10px 10px;
+    }
+
+    .header__nav-tablet-menu-picture-link {
+        display: block;
+        width: 113px;
+        object-fit: contain;
+    }
+
+    .header__nav-tablet-menu-img {
+        width: 100%;
+    }
+    
+    .find__form-wrap-flex {
+        flex-direction: column;
+    }
+
+    .find__form {
+        width: 100%;
+        border-bottom: 1px solid #f1f1f1;
+        border-right: none;
+    }
+
+    .find__form-wrap {
+        position: relative;
+    }
+
+    .btn-find {
+        margin: 0;
+    }
+
+    .baner__img-content-header {
+        font-size: 6.1rem;
+    }
+
+    .baner {
+        height: 630px;
+    }
+
+    .baner__img {
+        height: 100%;
+        background-size: cover;
+        background-position: 80% 50%;
+    }
+
+    .mediterranean {
+        background-size: cover;
+        background-position: 50%;
+    }
+
+    .destination {
+        background-position: 50%;
+        width: 100%;
+        height: 100%;
+    }
+
+    .customer__join {
+        height: unset;
+    }
+
+    .customer__join-title {
+        line-height: 8rem;
+        margin-bottom: 40px;
+    }
+    
+    .flex-column-tablet {
+        flex-direction: column;
+    }
+
+    .customer__join-btn {
+        display: inline-block;
+        position: unset;
+        margin-bottom: 6px;
+    }
+
+    .travel__place {
+        width: 100%;
+        height: 91%;
+        object-fit: contain;
+        
+    }
+
+    .breathtaking__cities-background {
+        height: 650px;
+        background-position: 54%;
+        background-attachment: scroll;
+    }
+
+    .travel__review {
+        background-position: 55%;
+        background-attachment: scroll;
+    }
+
+    .btn--talking {
+        display: none;
+    }
+
+    .mediterranean__wrap  {
+        width: 80%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+}
+
+/* Tablet */
+@media (min-width: 740px) and ( max-width: 1023px){
+    .baner__img-content-content {
+        width: 80%;
+    }
+
+    .holiday__1-desc {
+        width: 80%;
+    }
+
+    .travel__review-wrap {
+        flex-direction: column;
+        height: unset;
+    }
+
+    .travel__review-wrap {
+        padding-top: 40px;
+        padding-bottom: 40px;
+    }
+
+    .travel__review-img {
+        object-fit: contain;
+    }
+
+    .travel__review-wrap-content {
+        text-align: center;
+    }
+
+    .travel__review-wrap-content-desc {
+        text-align: center;
+        margin: 0 0 10px 0;
+    }
+
+    .from__our-blog-banner {
+        width: 644px;
+        max-width: 100%;
+        height: 80vh;
+        text-align: center;
+        background-size: cover;
+        margin-bottom: 159px;
+    }
+
+    .support__banner {
+        width: 684px;
+    }
+
+    .from__our-blog-banner-bounus {
+        width: 750px;
+        left: -27px;
+    }
+
+    .find {
+        width: 80%;
+    }
+
+    .breathtaking__cities-video-link {
+        top: calc(50% - 10%);
+    }
+    
+}
+
+/* Mobile */
+@media (max-width: 739px) {
+    html, body {
+        overflow-x: hidden;
+    }
+
+    .baner__img-content-content {
+        display: none;
+    }
+
+    .baner__img-content-header {
+        font-size: 4.1rem;
+        line-height: 6.2rem;
+    }
+
+    .baner__img {
+        background-position: 75% 50%;
+    }
+
+    .baner__img-content-slogan {
+        font-size: 3rem;
+    }
+
+    .baner__img-text {
+        top: 12%;
+    }
+
+    .find {
+        width: 80%;
+        flex: unset;
+        top: -480px;
+    }
+    
+    .holiday__1-desc {
+        text-align: center !important;
+    }
+
+    .holiday__1-heading {
+        font-size: 3.8rem;
+    } 
+
+    .holiday__1-slogan {
+        font-size: 3rem;
+    }
+
+    .travel__place {
+        width: 80%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    
+    .pari__icon-img {
+        height: 101px;
+    }
+
+    .button__right {
+        display: none;
+    }
+    
+    .button__left {
+        display: none;
+    }
+
+    .breathtaking__cities-video {
+        width: 80%;
+    }
+
+    .breathtaking__cities-video-img {
+        object-fit: cover;
+    }
+
+    .breathtaking__cities-background {
+        height: 600px;
+    }
+    
+    .customer__feedback-slider-content {
+        width: calc(100% - 150px);
+    }
+
+    /* From our blog start*/
+    
+    .from__our-blog-wrap {
+        padding: 0 50px;
+    }
+    .amazing-tour {
+        flex-direction: column;
+    }
+
+    .amazing-tour-picture-img {
+        object-fit: contain;
+        width: 100%;
+    }
+
+     /* From our blog end*/
+
+    .footer__align-text {
+        padding: 0 35px;
+    }
+
+    .footer__subscribe-form-btn {
+        width: 100%;
+    }
+
+    .footer__subscribe-form {
+        margin-bottom: 55px
+    }
+
+    .customer__join-position {
+    padding-top: 38px;
+    padding-bottom: 20px;
+    }
+
+    .customer__join-title {
+        line-height: 3rem;
+        margin-left: 50px;
+    }
+
+    .customer__join-btn {
+        padding: 26px 46px;
+        margin-left: 50px;
+    }
+    
+    .breathtaking__cities-video-link {
+        top: calc(50% - 18%);
+        left: calc(50% - 5%);
+    }
+
+    .from__our-blog-heading {
+        font-size: 3rem;
+        line-height: 1.4rem;
+    }
+
+    .amazing-tour-picture {
+        width: 136px;
+        margin-bottom: 29px;
+    }
+    
+    .amazing-tour-content-heading {
+        font-size: 2.4rem;
+    }
+
+    .amazing-tour-content-desc {
+        width: 100%;
+    }
+
+    .from__our-blog-banner {
+        width: 100%;
+    }
+
+    .from__our-blog-banner {
+        width: 70%;
+        margin-left: auto;
+        margin-right: auto;
+        margin-bottom: 30px;
+    }
+
+    .support__banner {
+        width: calc(100% + 37px);
+    }
+    
+    .from__our-blog-banner-bounus-desc {
+        font-size: 3.2rem;
+        font-weight: 900;
+    }
+
+    .from__our-blog-banner-bounus-heading {
+        margin: 10px 0 6px 0;
+    }
+
+    .from__our-blog-banner-bounus {
+        width: calc(100% + 46px);
+        height: 84px;
+    }
+}
